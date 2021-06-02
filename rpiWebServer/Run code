@@ -1,0 +1,21 @@
+Code to run relay light web server
+
+cd rpiWebServer
+
+sudo python3 yourproject.py
+
+
+in my current case 
+
+sudo python3 helloWorldTemplate.py
+
+
+sudo python3 app.py
+
+
+
+ app.run(host='192.168.0.31', port=5000, debug=True)
+
+
+
+app.config['SERVER_NAME'] = 'ryanlosthistacos.xyz:3000'

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+   <head>
+
+      <title>GPIO Control</title>
+      <style>
+           body {
+              background-image: url("/");
+           }
+       </style>
+       <link rel="stylesheet" href="style.css" type="/home/pi/rpiWebServer/static/style.css"/>
+
+   </head>
+ 
+   <body>
+		<h1>Web Controled Relay </h1>
+		<h2> Status </h2>
+		<h3> Lights =  {{ led  }}</h3>
+		<br>
+		<h2> Commands </h2>
+		<h3> 
+			Light Ctrl =
+			<a href="/led/on" class="button">TURN ON</a>  
+			<a href="/led/off"class="button">TURN OFF</a>
+		</h3>
+</html>
