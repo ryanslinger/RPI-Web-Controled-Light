@@ -1,7 +1,3 @@
-'''
-Code created by Matt Richardson 
-for details, visit:  http://mattrichardson.com/Raspberry-Pi-Flask/inde...
-'''
 from flask import Flask, render_template
 import datetime
 app = Flask(__name__)
